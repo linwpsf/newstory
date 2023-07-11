@@ -1,12 +1,9 @@
 import openai
 import time
 import requests
-import pandas as pd
-import os
 
 
-
-openai.api_key = 'xxxxx'
+openai.api_key = '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'
 
 def chat_with_gpt3(text):
     for i in range(3):  # 最多重试2次，所以总共尝试3次
